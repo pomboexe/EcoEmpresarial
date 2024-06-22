@@ -83,3 +83,90 @@
     border: 1px solid beige;
     border-radius: 50%;
 }
+.servicos {
+    padding: 20px;
+    border-radius: 8px; /* Bordas arredondadas */
+}
+
+.servicos h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 colunas com largura igual */
+    gap: 20px; /* Espaçamento entre os cards */
+}
+
+.card {
+    background-color: #f4f4f4;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para destaque */
+    display: flex;
+    flex-direction: column;
+}
+
+.card h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.card img {
+    width: 100%; /* A imagem ocupa toda a largura do card */
+    border-radius: 8px; /* Bordas arredondadas para a imagem */
+}
+.cards li{
+    list-style: none;
+}
+
+.impacto {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.impacto h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.impacto p {
+    margin-bottom: 20px;
+}
+
+.impacto h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.impacto ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.impacto ul li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px; /* Espaçamento adicional entre os itens */
+}
+
+.impacto ul li span {
+    flex: 1; /* Ocupa todo o espaço disponível ao lado do cartão */
+}
+
+.cardImp {
+    background-color: #1178E5;
+    color: #fff;
+    padding: 15px; /* Maior preenchimento nos cartões */
+    border-radius: 12px; /* Bordas arredondadas maiores */
+    min-width: 250px; /* Largura mínima dos cartões */
+    text-align: center;
+}
+
+.cardImp p {
+    font-size: 16px; /* Tamanho de fonte maior */
+    margin: 0;
+}
