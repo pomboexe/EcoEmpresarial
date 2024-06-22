@@ -1,0 +1,85 @@
+.container {
+    background-color: #C1DECE;
+    width: 85%;
+    margin: 50px auto; /* Espaço do header e centraliza horizontalmente */
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra para destaque */
+    border-radius: 15px; /* Bordas arredondadas */
+}
+.trabalho {
+    text-align: left; /* Alinha todo o texto à esquerda */
+    width: 35%; /* Largura menor para manter a proporção */
+    margin: 15px 25px; /* Centraliza horizontalmente dentro do container */
+    background-color: rgba(14, 52, 31, 0.7);
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.trabalho h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #C1DECE;
+}
+
+.trabalho p {
+    height: 30%;
+    color:#fff;
+    font-size: 22px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.trabalho button {
+    
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #C1DECE;
+    color: #0E341F;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.trabalho button:hover {
+    background-color: #1C4930; /* Cor de fundo ao passar o mouse */
+}
+.backg{
+    background-size: cover;
+    padding: 15px;
+    background: url("/assets/recolhendo.png") no-repeat  ;
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+.sobre {
+    margin-top: 40px;
+    display: flex;
+    align-items: flex-start; /* Alinha os itens ao topo */
+    justify-content: space-evenly; /* Distribui o espaço entre os itens */
+    padding: 20px;
+    border-radius: 8px; /* Bordas arredondadas */
+}
+
+.conteudo {
+    flex: 1; /* Ocupa o espaço disponível */
+}
+
+.conteudo h2 {
+    font-size: 24px;
+    
+}
+
+.conteudo p {
+    margin-top: 20px ;
+    font-size: 20px;
+    line-height: 1.5;
+    width: 50%;
+}
+
+.sobre img {
+    width: 341px; /* Ajuste o tamanho da imagem conforme necessário */
+    margin-left: 20px; /* Espaçamento à esquerda da imagem */
+    height: 325px;
+    border: 1px solid beige;
+    border-radius: 50%;
+}
